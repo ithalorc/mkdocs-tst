@@ -1,0 +1,22 @@
+site_name: Guia RO
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: purple
+      toggle:
+        icon: material/weather-night
+        name: Tema Escuro
+    - scheme: slate
+          primary: deep purple
+          toggle:
+            icon: material/weather-sunny
+            name: Tema Claro
+
+markdown_extensions:
+  - pymdownx.emoji      # Emojis
+  - pymdownx.tasklist   # Opções de Tarefas
+  - pymdownx.mark       # Opção de marcações
+  - pymdownx.tilde      # Tachado
+  - pymdownx.highlight  # Trecho de código
